@@ -1,0 +1,14 @@
+apiVersion: ignite.weave.works/v1alpha2
+kind: VM
+metadata:
+  name: totes_new_node
+  uid: 599615df99804aeb
+spec:
+  image:
+    oci: weaveworks/ignite-ubuntu
+  cpus: 1
+  diskSize: 2GB
+  memory: 512MB
+  ssh: true
+status:
+  running: true
