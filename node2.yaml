@@ -1,0 +1,14 @@
+apiVersion: ignite.weave.works/v1alpha2
+kind: VM
+metadata:
+  name: node2
+  uid: 599615df99804aea
+spec:
+  image:
+    oci: weaveworks/ignite-ubuntu
+  cpus: 4
+  diskSize: 10GB
+  memory: 4000MB
+  ssh: true
+status:
+  running: true
